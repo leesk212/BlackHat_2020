@@ -29,5 +29,15 @@
 ### Fuzzy Hashing & Compariosn
 * Technique to compare different items and determine percentage similarity
   * 샘플의 유사성은 암호화 해시의 유사성을 말할 가능성이 크다.
+  * 암호는 암호 해시를 식별하는데 유용하다.
+  * 바이너리가 조금만 달라져도 해시 값을 완전히 변경시킨다. 그렇다면 비슷한 샘플을 어떻게 구분하는가?
+  * Fuzzy Hasing이 그것들을 블록에서 구분하여서 갖고 있게된다.
 * Helps in determining the malwares smaples for similarities
 * Helps in determining the variants of the same malware
+* Helps in determining the malwares associated with the same actor group
+* Tool: ssdeep
+ * Block에서 바이너리를 구분할 수있게 해주는 도구이다.
+ * example: 두개의 다른 해쉬값을 갖고 있는 malware들을 ssdeep을 쓰게되면 샘플간의 유사성을 확인할 수 있다.
+ 
+ ### Import 
+ 
