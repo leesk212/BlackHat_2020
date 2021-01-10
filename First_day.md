@@ -52,3 +52,8 @@
 ![4](./IMG/4.png)
 * 함수를 디셈블링 하는 과정은 생각보다 간단하지만! argument가 인식되는 과정이 stack에 쌓여서 진행됨을 확실히 해야만한다.
 * 왜 breakpoint가 안되는 것일까.. ㅠㅠ
+![5](./IMG/5.png)
+* 디버깅 모드 이동 F9 
+* Breakpoint 설정 F2
+* 만약 디버깅 모드가 설정안된다면 debugging option에서 suspend부분을 체크를 해주면 가능하다.
+
